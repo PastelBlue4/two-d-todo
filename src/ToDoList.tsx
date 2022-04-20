@@ -46,6 +46,14 @@ function ToDoList(){
                 <input {...register("title")}placeholder="제목을 작성하세요." />
                 <button>추가</button>
             </form>
+            <form>
+                <input {...register("title")}placeholder="제목을 작성하세요." />
+                <button>추가</button>
+            </form>
+            <form>
+                <input {...register("title")}placeholder="제목을 작성하세요." />
+                <button>추가</button>
+            </form>
         </div>
     )
 }
