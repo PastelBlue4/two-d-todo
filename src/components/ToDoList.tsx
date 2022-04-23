@@ -36,6 +36,18 @@ function ToDoList() {
             required: "할 일을 작성하세요.",
           })}
           placeholder="할 일을 작성해보세요."
+        />{" "}
+        <input
+          {...register("email2", {
+            required: "이메일을 작성하세요.",
+          })}
+          placeholder="이메일을 작성하세요."
+        />{" "}
+        <input
+          {...register("toDo", {
+            required: "할 일을 작성하세요.",
+          })}
+          placeholder="할 일을 작성해보세요."
         />
         <button>추가</button>
       </form>
