@@ -11,11 +11,6 @@ interface IToDo {
   category: "TO_DO" | "DOING" | "DONE";
 }
 
-const toDoState = atom<IToDo[]>({
-  key: "toDo",
-  default: [],
-});
-
 function ToDoList() {
   const [toDos, setToDos] = useRecoilState(toDoState);
   const { register, handleSubmit, setValue } = useForm<IForm>();
