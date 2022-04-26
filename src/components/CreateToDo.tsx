@@ -1,5 +1,5 @@
 function CreateTodo() {
-  return null;
+  return <div>CreactTodo home</div>;
 }
 
 export default CreateTodo;
