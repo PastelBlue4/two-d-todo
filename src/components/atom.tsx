@@ -1,13 +1,8 @@
-interface IToDo {
-  text: string;
-  id: number;
-  category: "TO_DO" | "DOING" | "DONE";
+function atom() {}
 
-export default function atom(){
- 
-  }
+const toDoState = atom<IToDo[]>({
+  key: "toDo",
+  default: [],
+});
 
-    const toDoState = atom<IToDo[]>({
-    key: "toDo",
-    default: [],
-  });
+export default atom();
