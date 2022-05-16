@@ -1,5 +1,5 @@
 function ToDo() {
-  return <div>Todo List </div>;
+  return null;
 }
 
 export default ToDo;
